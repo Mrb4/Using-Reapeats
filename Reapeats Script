@@ -1,0 +1,7 @@
+--repeat
+	--print ("Not Enough Parts In The Folder")
+ 		--Wait (2)
+--until  
+		--#game.Workspace.Part:GetChildren () >1
+
+--print ("Enough parts Are Here")
